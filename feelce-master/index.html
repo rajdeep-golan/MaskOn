@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet"
+  <link rel="stylesheet" type="text/css" href="css/simplelightbox.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css"><!--change here-->
+  <script src="pics.js"></script>
+  <title>FEELCE</title>
+ </head>
+ <body>
+  <nav class="navbar">
+      <div class="container">
+        <h1 class="logo"><img src="logosmall.jpg" style="height: 55px; width: 135px; margin-top: 5px; margin-bottom: -5px;" /></h1>
+        <ul class="nav">
+          <li><a href="#home" style="font-size: 25px; color: white">Home</a></li>
+          <li><a href="about.html" style="font-size: 25px;">About</a></li>
+          <li><a href="contact.html" style="font-size: 25px">Contact Us</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>For a safe and secure future: KN95 masks!</h1>
+          <p>
+            The KN95 Respirator Mask is worn to protect the wearer from viruses, bacteria, pollen and other particles. It has a bacteria filtration efficiency (BFE) and particle filtration efficiency (PFE) of up to 95%. The unisex foldable mask is made from 100 percent fabric. These KN95 masks are made out of 100% fabric.
+          </p>
+        </div>
+        <div id="cf">
+          <img class="top" src="maskHD.png"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner py-5">
+          <h3 class="text-2">"FEELCE"- Feels good now.</h3>
+          <h2 class="text-5 mt-1">Stay away from any virus using our variety KN95 masks,especially made to feel you good.</h2>
+          <p class="mt-1">
+            BE A CORONA PROOF FAMILY.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+      <div class="gallery">
+        <a href="people3.jpg" class="big"
+          ><img src="people3.jpg" alt=""
+        /></a>
+        <a href="DSC00472-removebg-preview (1).png" class="big"
+          ><img src="DSC00472-removebg-preview (1).png" alt=""
+        /></a>
+        <a href="people2.jpg" class="big"
+          ><img src="people2.jpg" alt=""
+        /></a>
+        <a href="old.webp" class="big"
+          ><img src="old.webp" alt=""
+        /></a>
+        <a href="BB12lRp4.jpg" class="big">
+          <img src="BB12lRp4.jpg" alt=""
+        /></a>
+        <a href="front.png" class="big"
+          ><img src="front.png" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <!--<li><a href="#">Terms of Service</a></li>-->
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+            <li><a href="#">Lorem ipsum dolor.</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3>Subscribe</h3>
+          <p>
+            Subscribe for our latest releases and product details.
+          </p>
+          <form
+            class="mt-1"
+            name="email-form"
+            method="POST"
+            data-netlify="true"
+          >
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail"/></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+    const firebaseConfig = {
+  apiKey: "AIzaSyBEiaoYQE0iKqBZEWKLOP3-dKWx6fIcEok",
+  authDomain: "feelce-d48a9.firebaseapp.com",
+  databaseURL: "https://feelce-d48a9.firebaseio.com",
+  projectId: "feelce-d48a9",
+  storageBucket: "feelce-d48a9.appspot.com",
+  messagingSenderId: "456876897477",
+  appId: "1:456876897477:web:263fadb0f0f02c0cf56cac",
+  measurementId: "G-5XZC86XQGE"
+};
+firebase.initializeApp(firebaseConfig);
+
+  // Get a reference to the database service
+  var database = firebase.database();
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+    $(function() {
+      const $gallery = $('.gallery a').simpleLightbox();
+    })
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.15.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.15.5/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+ </body>
+ </html>
